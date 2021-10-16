@@ -1,4 +1,4 @@
-% Copyright (c) 2021 Li Lab, Southern University of Science and Technology, Shenzhen & Ries Lab, European Molecular Biology Laboratory, Heidelberg.
+% Copyright (c) 2021 Li Lab, Southern University of Science and Technology, Shenzhen
 % author: Yiming Li & Jianwei Chen 
 % email: liym2019@sustech.edu.cn & 12149038@mail.sustech.edu.cn
 % date: 2021.10.07
