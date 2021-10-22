@@ -5,8 +5,6 @@
 
 # Requirements
 Matlab R2019a or newer  
-  - Curve Fitting Toolbox
-  - Optimization Toolbox
 
 The GPU fitter requires:
   
@@ -23,4 +21,4 @@ The CPU version runs on macOS and Microsoft Windows 7 or newer, 64-bit
 For any questions / comments about this software, please contact [Li Lab](https://faculty.sustech.edu.cn/liym2019/en/).
 
 # Copyright 
-Copyright (c) 2021 Li Lab, Southern University of Science and Technology, Shenzhen &Ries Lab, European Molecular Biology Laboratory, Heidelberg.
+Copyright (c) 2021 Li Lab, Southern University of Science and Technology, Shenzhen.
