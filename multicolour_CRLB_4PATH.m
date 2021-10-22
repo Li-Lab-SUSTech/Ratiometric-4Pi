@@ -8,7 +8,7 @@ close all
 clc
 %% hyper parameters for PSF model used for fit
 paraSim.NA = 1.35;                                                % numerical aperture of obj             
-paraSim.refmed = 1.450;                                            % refractive index of sample medium
+paraSim.refmed = 1.33;                                            % refractive index of sample medium
 paraSim.refcov = 1.518;                                           % refractive index of converslip
 paraSim.refimm = 1.40;                                           % refractive index of immersion oil
 paraSim.lambda = 668;                                             % wavelength of emission
