@@ -121,7 +121,7 @@ Npixels = 13;
 bg = [20 20 20 20];
 zrange = -600:20:600;
 
-ratio=0.4377;
+ratio=0.4271;
 NP=1000;
 Nphotons = [NP*ratio NP*ratio NP*ratio NP*ratio];
 
@@ -182,8 +182,8 @@ for z = zrange
     n = n+1;
 end
 
-ratio1=0.4264;
-ratio2=0.7448;  
+ratio1=0.3344;
+ratio2=0.7413;  
 NP=1000;
 Nphotons = [NP*ratio1 NP*ratio1 NP*ratio2 NP*ratio2];
 
@@ -257,7 +257,7 @@ plot(zrange,meanCRLBy1*120,'s','Color',[0.5 0.5 0.5]);
 x_label = xlabel('z position (nm)');
 y_label = ylabel('CRLB^{1/2} (nm)');
 lgd = legend('{\itz}_\phi','{\itz}_\phi-salvaged',' {\itx}',' {\itx}-salvaged',' {\ity}',' {\ity}-salvaged','Location','north');
-title('DY633','FontSize',22,'FontWeight','bold'); 
+title('DY634','FontSize',22,'FontWeight','bold'); 
 set(lgd,'FontName','time','FontSize',15,'LineWidth',1,'FontWeight','bold');   
 set(x_label,'FontName','time','FontSize',22,'LineWidth',3,'FontWeight','bold');
 set(y_label,'FontName','time','FontSize',22,'LineWidth',3,'FontWeight','bold');
