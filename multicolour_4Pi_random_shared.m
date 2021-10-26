@@ -107,7 +107,7 @@ PSF.Aspline = Aspline;
 PSF.Bspline = Bspline;
 Nfits = 1000;
 Npixels = 13;
-ratio=0.96;
+ratio=0.9357;
 bg = [20 20 20 20];
 phi0 = [0, pi/2, pi, 1.5 * pi];
 distribution = 'Photons_AF647 52%, CF660C 75%, DY634 33%, DL650 67%, CF680 79%';
@@ -326,7 +326,7 @@ initPhaseA=repmat(initPhase(1),[1 Nfits]);
     
     
     
- ratio=0.57;
+ ratio=0.4511;
  [DY634_no,DY634_xo]=hist(DY634,1000);
  distribution1=zeros(1000,2);
 distribution1(:,1) = DY634_xo';
