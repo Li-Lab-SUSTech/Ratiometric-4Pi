@@ -188,10 +188,10 @@ N = rand_arb_cjw(Nfits, distribution1, 0);
     initZA=repmat(zstart(1),[1 Nfits]);
     initPhaseA=repmat(initPhase(1),[1 Nfits]);
     
-    tic % CPU fitter
-    [P,CRLB, LogL] = CPUmleFit_LM_4Pi(single(imstack(:, :, :, :)),uint32(sharedA),100,single(IAB(:,:,:,:,3)),single(IAB(:,:,:,:,1)),single(IAB(:,:,:,:,2)),single(dTAll),single(phi0A),single(initZA),single(initPhaseA));
-    tCPU=toc;
-    disp(['GPU fitter speed' num2str(Nfits/tCPU)])
+%    tic % CPU fitter
+%    [P,CRLB, LogL] = CPUmleFit_LM_4Pi(single(imstack(:, :, :, :)),uint32(sharedA),100,single(IAB(:,:,:,:,3)),single(IAB(:,:,:,:,1)),single(IAB(:,:,:,:,2)),single(dTAll),single(phi0A),single(initZA),single(initPhaseA));
+%    tCPU=toc;
+%    disp(['GPU fitter speed' num2str(Nfits/tCPU)])
 %     if length(zstart)>1
 %         for i=2:length(zstart)
 %             initZA=repmat(zstart(i),[1 Nfits]);
