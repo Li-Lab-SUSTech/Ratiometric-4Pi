@@ -3,11 +3,11 @@
  
  <img src="https://github.com/Li-Lab-SUSTech/Ratiometric-4Pi/blob/main/Figure/Fig_1_Schematic of 4Pi-SMLM_1.png" width = 80%  alt="workflow overview" align=center />
 
-This code comes with the paper: "Ratiometric 4Pi single-molecule localization with optimal resolution and color assignment".
+This code comes with the paper: "[Ratiometric 4Pi single-molecule localization with optimal resolution and color assignment](https://opg.optica.org/ol/abstract.cfm?uri=ol-47-2-325)".
 
 If you use this code for your research, please cite our paper:
 
-Jianwei Chen, Benxi Yao, Zhichao Yang, Wei Shi, Tingdan Luo, Peng Xi, Dayong Jin, and Yiming Li, "Ratiometric 4Pi single-molecule localization with optimal resolution and color assignment," Opt. Lett. 47, 325-328 (2022)
+* Jianwei Chen, Benxi Yao, Zhichao Yang, Wei Shi, Tingdan Luo, Peng Xi, Dayong Jin, and Yiming Li, "Ratiometric 4Pi single-molecule localization with optimal resolution and color assignment," Opt. Lett. 47, 325-328 (2022)
 
 # Requirements
 Matlab R2019a or newer  
